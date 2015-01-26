@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jboss-as-kitchensink:war exploded">
+    <output-path>$PROJECT_DIR$/target/jboss-as-kitchensink</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jboss-as-kitchensink/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jboss-as-kitchensink" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
